@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "checkPrivilege", "checkPrivilege.vcxproj", "{E7C6AC93-C2FE-466D-1BBB-A98A51398184}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7C6AC93-C2FE-466D-1BBB-A98A51398184}.Release|x64.ActiveCfg = Release|x64
+		{E7C6AC93-C2FE-466D-1BBB-A98A51398184}.Release|x64.Build.0 = Release|x64
+		{E7C6AC93-C2FE-466D-1BBB-A98A51398184}.Debug|x64.ActiveCfg = Debug|x64
+		{E7C6AC93-C2FE-466D-1BBB-A98A51398184}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

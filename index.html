@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check User Privilege</title>
+    <script src="checkPrivelegeOnClick.js"  defer></script>
+    <script src="backOnClick.js"  defer></script>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <form id="checkForm">
+        <label for="username">Введите имя пользователя:</label>
+        <input type="text" id="username" name="username" required>
+        <button type="submit">Проверить</button>
+    </form>
+
+    <div id="result1" class="hidden">Пользователь <span id="user_name_1"></span> имеет привелегию <span id="privilege"></span></div>
+    <div id="result2" class="hidden">Пользователя <span id="user_name_2"></span> нет</span></div>
+    <button id="button_back" class="hidden" onclick="back()">Назад</button>
+</body>
+</html>
